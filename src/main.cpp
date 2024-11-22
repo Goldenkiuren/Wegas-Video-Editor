@@ -40,7 +40,6 @@ int main(int argc, char** argv)
         {
             current_operation = key;
         }
-            
 
         int kernel_size;
         switch(current_operation)
@@ -83,19 +82,27 @@ int main(int argc, char** argv)
             //Resize
             case 'r':
             case 'R':
+                resize(frame, edited_frame, Size(), 0.5 + slider_value * 0.01, 0.5 + slider_value * 0.01);
                 break;
             //Rotate Left
             case '-':
+            case '_':
+                rotate(frame, edited_frame, ROTATE_90_COUNTERCLOCKWISE);
                 break;
             //Rotate Right
+            case '=':
             case '+':
+                rotate(frame, edited_frame, ROTATE_90_CLOCKWISE);
                 break;
-            //Flip
-            case 'f':
-            case 'F':
+            //Vertical Flip
+            case 'v':
+            case 'V':
+                flip(frame, edited_frame, 0);
                 break;
-            //Record
-            case ' ':
+            //Horizontal Flip
+            case 'h':
+            case 'H':
+                flip(frame, edited_frame, 1);
                 break;
             default:
                 edited_frame = frame;
