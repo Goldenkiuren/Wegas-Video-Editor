@@ -55,6 +55,11 @@ int main(int argc, char** argv)
             case 'C':
                 Canny(frame, edited_frame, slider_value * 2.5, slider_value*4);
                 break;
+            //Sobel
+            case 's':
+            case 'S':
+                Sobel(frame, edited_frame, CV_8U, 1, 1, min(slider_value * 2 + 1, 31));
+                break;
             default:
                 edited_frame = frame;
                 break;
