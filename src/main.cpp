@@ -22,6 +22,8 @@ int main(int argc, char** argv)
     namedWindow("Edited Live Video", WINDOW_AUTOSIZE);
     createTrackbar("Slider", "Edited Live Video", &slider, slider_max, on_trackbar);
 
+    VideoWriter video;
+
     for(;;)
     {
         Mat frame, edited_frame;
@@ -34,20 +36,29 @@ int main(int argc, char** argv)
         char key = (char)waitKey(1);
         if(key == 27)
         {
+            //ESC
             break; // stop capturing by pressing ESC
+        }
+        else if(key == 32 && !video.isOpened())
+        {
+            //SPACE
+            video.open("output.avi", VideoWriter::fourcc('M', 'J', 'P', 'G'), cap.get(CAP_PROP_FPS), Size((int)cap.get(CAP_PROP_FRAME_WIDTH), (int)cap.get(CAP_PROP_FRAME_HEIGHT)));
+        }
+        else if(key == 13)
+        {
+            //ENTER
+            video.release();
         }
         else if(key != -1)
         {
             current_operation = key;
         }
 
-        int kernel_size;
         switch(current_operation)
         {   //Gaussian Blur
             case 'g':
             case 'G':
-                kernel_size = 2 * slider_value + 1;
-                GaussianBlur(frame, edited_frame, Size(kernel_size,kernel_size),0);
+                GaussianBlur(frame, edited_frame, Size(2 * slider_value + 1,2 * slider_value + 1),0);
                 break;
             //Canny
             case 'k':
@@ -69,7 +80,7 @@ int main(int argc, char** argv)
             case 'C':
                 frame.convertTo(edited_frame, -1, slider_value * 0.1, 0);
                 break;
-            //Brightness
+            //Negative
             case 'n':
             case 'N':
                 frame.convertTo(edited_frame, -1, -1, 255);
@@ -105,13 +116,25 @@ int main(int argc, char** argv)
                 flip(frame, edited_frame, 1);
                 break;
             default:
-                edited_frame = frame;
+                frame.copyTo(edited_frame);
                 break;
         }
 
         
         imshow("Source Live Video", frame);
         imshow("Edited Live Video", edited_frame);
+        if(video.isOpened())
+        {
+            if(current_operation == 'r' || current_operation == 'R' || current_operation == 'y' || current_operation == 'Y' ||
+            current_operation == '-' || current_operation == '_' || current_operation == '+' || current_operation == '=')
+            {
+                video.write(frame);
+            }
+            else
+            {
+                video.write(edited_frame);
+            }
+        }
     }
     cap.release(); // release the VideoCapture object
     destroyAllWindows();
