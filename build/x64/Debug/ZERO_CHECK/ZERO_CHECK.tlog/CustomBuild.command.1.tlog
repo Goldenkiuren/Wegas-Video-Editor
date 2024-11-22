@@ -1,0 +1,10 @@
+^C:\USERS\AUGUS\DESKTOP\WEGASVIDEOEDITOR\BUILD\CMAKEFILES\0CE30A91DF4094B18B621F0FECAB98CB\GENERATE.STAMP.RULE
+setlocal
+C:\MinGW\bin\cmake.exe -SC:/Users/augus/Desktop/WegasVideoEditor -BC:/Users/augus/Desktop/WegasVideoEditor/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/augus/Desktop/WegasVideoEditor/build/WegasVideoEditor.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

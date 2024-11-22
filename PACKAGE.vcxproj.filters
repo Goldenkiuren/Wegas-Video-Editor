@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\augus\Desktop\WegasVideoEditor\CMakeFiles\2bf858ac26d7e4f6cf948203701d9574\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{52B1CBDA-EF7F-31EE-80F3-936A3D26705E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

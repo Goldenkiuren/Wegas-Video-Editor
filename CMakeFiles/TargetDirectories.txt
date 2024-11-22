@@ -1,0 +1,9 @@
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/Experimental.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/Nightly.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/Continuous.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/WegasVideoEditor.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/PACKAGE.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/RUN_TESTS.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/ALL_BUILD.dir
+C:/Users/augus/Desktop/WegasVideoEditor/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,1265 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:00:57 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.18
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:00:58 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ve1wqu"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ve1wqu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ve1wqu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_093e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:01:00 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ve1wqu\\cmTC_093e3.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_093e3.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ve1wqu\\Debug\\".
+          Criando o diret├│rio "cmTC_093e3.dir\\Debug\\cmTC_093e3.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_093e3.dir\\Debug\\cmTC_093e3.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_093e3.dir\\Debug\\cmTC_093e3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_093e3.dir\\Debug\\\\" /Fd"cmTC_093e3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_093e3.dir\\Debug\\\\" /Fd"cmTC_093e3.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ve1wqu\\Debug\\cmTC_093e3.exe" /INCREMENTAL /ILK:"cmTC_093e3.dir\\Debug\\cmTC_093e3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ve1wqu/Debug/cmTC_093e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ve1wqu/Debug/cmTC_093e3.lib" /MACHINE:X64  /machine:x64 cmTC_093e3.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_093e3.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ve1wqu\\Debug\\cmTC_093e3.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_093e3.dir\\Debug\\cmTC_093e3.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_093e3.dir\\Debug\\cmTC_093e3.tlog\\cmTC_093e3.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ve1wqu\\cmTC_093e3.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xlikiy"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xlikiy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xlikiy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f5888.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:01:01 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xlikiy\\cmTC_f5888.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_f5888.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xlikiy\\Debug\\".
+          Criando o diret├│rio "cmTC_f5888.dir\\Debug\\cmTC_f5888.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_f5888.dir\\Debug\\cmTC_f5888.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_f5888.dir\\Debug\\cmTC_f5888.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f5888.dir\\Debug\\\\" /Fd"cmTC_f5888.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f5888.dir\\Debug\\\\" /Fd"cmTC_f5888.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xlikiy\\Debug\\cmTC_f5888.exe" /INCREMENTAL /ILK:"cmTC_f5888.dir\\Debug\\cmTC_f5888.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xlikiy/Debug/cmTC_f5888.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xlikiy/Debug/cmTC_f5888.lib" /MACHINE:X64  /machine:x64 cmTC_f5888.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_f5888.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xlikiy\\Debug\\cmTC_f5888.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_f5888.dir\\Debug\\cmTC_f5888.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_f5888.dir\\Debug\\cmTC_f5888.tlog\\cmTC_f5888.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xlikiy\\cmTC_f5888.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.97
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:09:13 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:09:14 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.97
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-tbpzvv"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-tbpzvv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-tbpzvv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9c0ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:09:15 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbpzvv\\cmTC_9c0ed.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_9c0ed.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbpzvv\\Debug\\".
+          Criando o diret├│rio "cmTC_9c0ed.dir\\Debug\\cmTC_9c0ed.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_9c0ed.dir\\Debug\\cmTC_9c0ed.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_9c0ed.dir\\Debug\\cmTC_9c0ed.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c0ed.dir\\Debug\\\\" /Fd"cmTC_9c0ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c0ed.dir\\Debug\\\\" /Fd"cmTC_9c0ed.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbpzvv\\Debug\\cmTC_9c0ed.exe" /INCREMENTAL /ILK:"cmTC_9c0ed.dir\\Debug\\cmTC_9c0ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-tbpzvv/Debug/cmTC_9c0ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-tbpzvv/Debug/cmTC_9c0ed.lib" /MACHINE:X64  /machine:x64 cmTC_9c0ed.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_9c0ed.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbpzvv\\Debug\\cmTC_9c0ed.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_9c0ed.dir\\Debug\\cmTC_9c0ed.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_9c0ed.dir\\Debug\\cmTC_9c0ed.tlog\\cmTC_9c0ed.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tbpzvv\\cmTC_9c0ed.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-pvpu2o"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-pvpu2o"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-pvpu2o'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f7e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:09:17 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvpu2o\\cmTC_8f7e1.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_8f7e1.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvpu2o\\Debug\\".
+          Criando o diret├│rio "cmTC_8f7e1.dir\\Debug\\cmTC_8f7e1.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_8f7e1.dir\\Debug\\cmTC_8f7e1.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_8f7e1.dir\\Debug\\cmTC_8f7e1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f7e1.dir\\Debug\\\\" /Fd"cmTC_8f7e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8f7e1.dir\\Debug\\\\" /Fd"cmTC_8f7e1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvpu2o\\Debug\\cmTC_8f7e1.exe" /INCREMENTAL /ILK:"cmTC_8f7e1.dir\\Debug\\cmTC_8f7e1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-pvpu2o/Debug/cmTC_8f7e1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-pvpu2o/Debug/cmTC_8f7e1.lib" /MACHINE:X64  /machine:x64 cmTC_8f7e1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8f7e1.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvpu2o\\Debug\\cmTC_8f7e1.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_8f7e1.dir\\Debug\\cmTC_8f7e1.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_8f7e1.dir\\Debug\\cmTC_8f7e1.tlog\\cmTC_8f7e1.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pvpu2o\\cmTC_8f7e1.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.97
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:18:05 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.00
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:18:07 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.98
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-86ijb3"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-86ijb3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-86ijb3'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1ed60.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:18:08 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86ijb3\\cmTC_1ed60.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_1ed60.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86ijb3\\Debug\\".
+          Criando o diret├│rio "cmTC_1ed60.dir\\Debug\\cmTC_1ed60.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_1ed60.dir\\Debug\\cmTC_1ed60.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_1ed60.dir\\Debug\\cmTC_1ed60.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ed60.dir\\Debug\\\\" /Fd"cmTC_1ed60.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ed60.dir\\Debug\\\\" /Fd"cmTC_1ed60.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86ijb3\\Debug\\cmTC_1ed60.exe" /INCREMENTAL /ILK:"cmTC_1ed60.dir\\Debug\\cmTC_1ed60.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-86ijb3/Debug/cmTC_1ed60.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-86ijb3/Debug/cmTC_1ed60.lib" /MACHINE:X64  /machine:x64 cmTC_1ed60.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1ed60.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86ijb3\\Debug\\cmTC_1ed60.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_1ed60.dir\\Debug\\cmTC_1ed60.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_1ed60.dir\\Debug\\cmTC_1ed60.tlog\\cmTC_1ed60.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-86ijb3\\cmTC_1ed60.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-l7atji"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-l7atji"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-l7atji'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6e40c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:18:09 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7atji\\cmTC_6e40c.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_6e40c.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7atji\\Debug\\".
+          Criando o diret├│rio "cmTC_6e40c.dir\\Debug\\cmTC_6e40c.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_6e40c.dir\\Debug\\cmTC_6e40c.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_6e40c.dir\\Debug\\cmTC_6e40c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e40c.dir\\Debug\\\\" /Fd"cmTC_6e40c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6e40c.dir\\Debug\\\\" /Fd"cmTC_6e40c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7atji\\Debug\\cmTC_6e40c.exe" /INCREMENTAL /ILK:"cmTC_6e40c.dir\\Debug\\cmTC_6e40c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-l7atji/Debug/cmTC_6e40c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-l7atji/Debug/cmTC_6e40c.lib" /MACHINE:X64  /machine:x64 cmTC_6e40c.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6e40c.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7atji\\Debug\\cmTC_6e40c.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_6e40c.dir\\Debug\\cmTC_6e40c.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_6e40c.dir\\Debug\\cmTC_6e40c.tlog\\cmTC_6e40c.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7atji\\cmTC_6e40c.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.96
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:18:57 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.99
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:18:58 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-exqafc"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-exqafc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-exqafc'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_da6ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:18:59 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exqafc\\cmTC_da6ef.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_da6ef.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exqafc\\Debug\\".
+          Criando o diret├│rio "cmTC_da6ef.dir\\Debug\\cmTC_da6ef.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_da6ef.dir\\Debug\\cmTC_da6ef.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_da6ef.dir\\Debug\\cmTC_da6ef.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da6ef.dir\\Debug\\\\" /Fd"cmTC_da6ef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da6ef.dir\\Debug\\\\" /Fd"cmTC_da6ef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exqafc\\Debug\\cmTC_da6ef.exe" /INCREMENTAL /ILK:"cmTC_da6ef.dir\\Debug\\cmTC_da6ef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-exqafc/Debug/cmTC_da6ef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-exqafc/Debug/cmTC_da6ef.lib" /MACHINE:X64  /machine:x64 cmTC_da6ef.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_da6ef.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exqafc\\Debug\\cmTC_da6ef.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_da6ef.dir\\Debug\\cmTC_da6ef.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_da6ef.dir\\Debug\\cmTC_da6ef.tlog\\cmTC_da6ef.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-exqafc\\cmTC_da6ef.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.99
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xut9lx"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xut9lx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xut9lx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_70d39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:19:01 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xut9lx\\cmTC_70d39.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_70d39.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xut9lx\\Debug\\".
+          Criando o diret├│rio "cmTC_70d39.dir\\Debug\\cmTC_70d39.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_70d39.dir\\Debug\\cmTC_70d39.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_70d39.dir\\Debug\\cmTC_70d39.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_70d39.dir\\Debug\\\\" /Fd"cmTC_70d39.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_70d39.dir\\Debug\\\\" /Fd"cmTC_70d39.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xut9lx\\Debug\\cmTC_70d39.exe" /INCREMENTAL /ILK:"cmTC_70d39.dir\\Debug\\cmTC_70d39.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xut9lx/Debug/cmTC_70d39.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-xut9lx/Debug/cmTC_70d39.lib" /MACHINE:X64  /machine:x64 cmTC_70d39.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_70d39.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xut9lx\\Debug\\cmTC_70d39.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_70d39.dir\\Debug\\cmTC_70d39.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_70d39.dir\\Debug\\cmTC_70d39.tlog\\cmTC_70d39.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xut9lx\\cmTC_70d39.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.99
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:19:30 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:19:31 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:01.02
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ars4o1"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ars4o1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ars4o1'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f6e43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:19:32 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ars4o1\\cmTC_f6e43.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_f6e43.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ars4o1\\Debug\\".
+          Criando o diret├│rio "cmTC_f6e43.dir\\Debug\\cmTC_f6e43.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_f6e43.dir\\Debug\\cmTC_f6e43.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_f6e43.dir\\Debug\\cmTC_f6e43.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6e43.dir\\Debug\\\\" /Fd"cmTC_f6e43.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f6e43.dir\\Debug\\\\" /Fd"cmTC_f6e43.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ars4o1\\Debug\\cmTC_f6e43.exe" /INCREMENTAL /ILK:"cmTC_f6e43.dir\\Debug\\cmTC_f6e43.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ars4o1/Debug/cmTC_f6e43.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-ars4o1/Debug/cmTC_f6e43.lib" /MACHINE:X64  /machine:x64 cmTC_f6e43.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f6e43.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ars4o1\\Debug\\cmTC_f6e43.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_f6e43.dir\\Debug\\cmTC_f6e43.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_f6e43.dir\\Debug\\cmTC_f6e43.tlog\\cmTC_f6e43.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ars4o1\\cmTC_f6e43.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.98
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-vmqsta"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-vmqsta"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-vmqsta'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6f72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:19:35 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vmqsta\\cmTC_d6f72.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_d6f72.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vmqsta\\Debug\\".
+          Criando o diret├│rio "cmTC_d6f72.dir\\Debug\\cmTC_d6f72.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_d6f72.dir\\Debug\\cmTC_d6f72.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_d6f72.dir\\Debug\\cmTC_d6f72.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /W3 /WX- /diagnostics:column /O2 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6f72.dir\\Debug\\\\" /Fd"cmTC_d6f72.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /W3 /WX- /diagnostics:column /O2 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d6f72.dir\\Debug\\\\" /Fd"cmTC_d6f72.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vmqsta\\Debug\\cmTC_d6f72.exe" /INCREMENTAL /ILK:"cmTC_d6f72.dir\\Debug\\cmTC_d6f72.ilk" /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-vmqsta/Debug/cmTC_d6f72.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-vmqsta/Debug/cmTC_d6f72.lib" /MACHINE:X64  /machine:x64 cmTC_d6f72.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d6f72.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vmqsta\\Debug\\cmTC_d6f72.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_d6f72.dir\\Debug\\cmTC_d6f72.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_d6f72.dir\\Debug\\cmTC_d6f72.tlog\\cmTC_d6f72.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-vmqsta\\cmTC_d6f72.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.94
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 6.2.9200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: /DWIN32;/D_WINDOWS;/W3
+      Id flags:  
+      
+      The output was:
+      0
+      Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+      Compila├º├úo de 22/11/2024 01:19:49 iniciada.
+      
+      Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" no n├│ 1 (destinos padr├úo).
+      PrepareForBuild:
+        Criando o diret├│rio "Debug\\".
+        A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+        Criando o diret├│rio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Criando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+        Tocando "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Excluindo o arquivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Tocando "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\3.27.1\\CompilerIdC\\CompilerIdC.vcxproj" (destinos padr├úo).
+      
+      Compila├º├úo com ├¬xito.
+          0 Aviso(s)
+          0 Erro(s)
+      
+      Tempo Decorrido 00:00:00.98
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/3.27.1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/MinGW/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-8bgbhd"
+      binary: "C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-8bgbhd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-8bgbhd'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5c771.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Vers├úo do MSBuild 17.12.6+db5f6012c para .NET Framework
+        Compila├º├úo de 22/11/2024 01:19:50 iniciada.
+        
+        Projeto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8bgbhd\\cmTC_5c771.vcxproj" no n├│ 1 (destinos padr├úo).
+        PrepareForBuild:
+          Criando o diret├│rio "cmTC_5c771.dir\\Debug\\".
+          A sa├¡da estruturada est├í habilitada. A formata├º├úo do diagn├│stico do compilador refletir├í a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+          Criando o diret├│rio "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8bgbhd\\Debug\\".
+          Criando o diret├│rio "cmTC_5c771.dir\\Debug\\cmTC_5c771.tlog\\".
+        InitializeBuildStatus:
+          Criando "cmTC_5c771.dir\\Debug\\cmTC_5c771.tlog\\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+          Tocando "cmTC_5c771.dir\\Debug\\cmTC_5c771.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c771.dir\\Debug\\\\" /Fd"cmTC_5c771.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Vers├úo 19.42.34433 para x64
+          Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c771.dir\\Debug\\\\" /Fd"cmTC_5c771.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\MinGW\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8bgbhd\\Debug\\cmTC_5c771.exe" /INCREMENTAL /ILK:"cmTC_5c771.dir\\Debug\\cmTC_5c771.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-8bgbhd/Debug/cmTC_5c771.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/augus/Desktop/WegasVideoEditor/build/CMakeFiles/CMakeScratch/TryCompile-8bgbhd/Debug/cmTC_5c771.lib" /MACHINE:X64  /machine:x64 cmTC_5c771.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_5c771.vcxproj -> C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8bgbhd\\Debug\\cmTC_5c771.exe
+        FinalizeBuildStatus:
+          Excluindo o arquivo "cmTC_5c771.dir\\Debug\\cmTC_5c771.tlog\\unsuccessfulbuild".
+          Tocando "cmTC_5c771.dir\\Debug\\cmTC_5c771.tlog\\cmTC_5c771.lastbuildstate".
+        Projeto de compila├º├úo pronto "C:\\Users\\augus\\Desktop\\WegasVideoEditor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8bgbhd\\cmTC_5c771.vcxproj" (destinos padr├úo).
+        
+        Compila├º├úo com ├¬xito.
+            0 Aviso(s)
+            0 Erro(s)
+        
+        Tempo Decorrido 00:00:00.96
+        
+      exitCode: 0
+...
