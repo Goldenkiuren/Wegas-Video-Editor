@@ -51,14 +51,34 @@ int main(int argc, char** argv)
                 GaussianBlur(frame, edited_frame, Size(kernel_size,kernel_size),0);
                 break;
             //Canny
-            case 'c':
-            case 'C':
+            case 'k':
+            case 'K':
                 Canny(frame, edited_frame, slider_value * 2.5, slider_value*4);
                 break;
             //Sobel
             case 's':
             case 'S':
                 Sobel(frame, edited_frame, CV_8U, 1, 1, min(slider_value * 2 + 1, 31));
+                break;
+            //Brightness
+            case 'b':
+            case 'B':
+                frame.convertTo(edited_frame, -1, 1, slider_value * 4);
+                break;
+            //Contrast
+            case 'c':
+            case 'C':
+                frame.convertTo(edited_frame, -1, slider_value * 0.1, 0);
+                break;
+            //Brightness
+            case 'n':
+            case 'N':
+                frame.convertTo(edited_frame, -1, -1, 255);
+                break;
+            //Grayscale
+            case 'y':
+            case 'Y':
+                cvtColor(frame, edited_frame, COLOR_BGR2GRAY);
                 break;
             default:
                 edited_frame = frame;
