@@ -80,6 +80,23 @@ int main(int argc, char** argv)
             case 'Y':
                 cvtColor(frame, edited_frame, COLOR_BGR2GRAY);
                 break;
+            //Resize
+            case 'r':
+            case 'R':
+                break;
+            //Rotate Left
+            case '-':
+                break;
+            //Rotate Right
+            case '+':
+                break;
+            //Flip
+            case 'f':
+            case 'F':
+                break;
+            //Record
+            case ' ':
+                break;
             default:
                 edited_frame = frame;
                 break;
